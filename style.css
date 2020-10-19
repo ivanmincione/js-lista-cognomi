@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box p {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}

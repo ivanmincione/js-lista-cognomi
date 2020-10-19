@@ -6,7 +6,7 @@
 
 
 // Creation array with casual surname
-var surname = ["Verdi","Bianchi", "Rossi","Neri","Ferrari","Costa","Fontana","Leone","Ferrara","Testa","Paperino","Topolino","Pluto"]
+var surname = [ "Verdi", "Bianchi",  "Rossi", "Neri", "Ferrari", "Costa", "Fontana", "Leone", "Ferrara", "Testa", "Paperino", "Topolino", "Pluto" ]
 // console.log(surname);
 
 // Input client surname
@@ -21,5 +21,9 @@ surname.push(inputSurname);
 surname.sort();
 console.log(surname);
 
+document.getElementById("list-surname").innerHTML = surname.sort();
+
 // position of inputSurname inside of array after alphabetic order
 console.log("Il tuo cognome si trova in posizione : " + surname.indexOf(inputSurname));
+
+document.getElementById("position-surname").innerHTML = ("Il tuo cognome si trova in posizione : " + surname.indexOf(inputSurname));
